@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Curso javaScript</title>
+</head>
+
+<body>
+
+    <script>
+        function pares(x, y) {
+            do {
+                x++;
+                var div = x % 2;
+                if (div == 0) {
+                    console.log(x);
+                }
+
+            } while (x <= y);
+        }
+        pares(30, 321);
+    </script>
+
+</body>
+
+</html>
